@@ -1,0 +1,518 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+/*-- Nav --*/
+
+ul li {
+
+    display: inline;
+
+}
+
+.navbar {
+    background-color: #3f4349;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.479);
+    display: inline;
+    padding-right: 10px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-brand {
+
+    color: white;
+}
+
+#Tickets {
+
+    color: rgb(42, 219, 42);
+}
+
+#logo {
+
+    height: 30%;
+    width: 30%;
+
+}
+
+/*-- Carousel --*/
+
+#cuadro1 {
+
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 96px;
+
+
+}
+
+#cuadro2 {
+
+    color: white;
+    height: 500px;
+    width: 500px;
+    text-align: right;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+
+}
+
+.imagenescarousel {
+    height: 800px;
+    width: 100%;
+
+}
+
+#boton1 {
+    background-color: transparent;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+#boton1a {
+
+    text-decoration: none;
+    color: white;
+}
+
+#boton2 {
+    background-color: #058c42;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border: 1px solid #058c42;
+    border-radius: 5px;
+}
+
+
+/*-- Cards --*/
+.card {
+    margin: 40px;
+    margin-top: 10px;
+
+}
+
+.botoncard {
+
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 7px;
+    color: white;
+    width: 80px;
+
+}
+
+#botonjava {
+    background-color: #ffb703;
+    color: black;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+#botonreact {
+    background-color: #219ebc;
+    width: 50px;
+    margin-left: 5px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+#botonnegoc {
+    background-color: gray;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+#botonstar {
+    background-color: #c1121f;
+    margin-left: 5px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+/*-- Banner --*/
+
+#Honolulu {
+    height: 450px;
+    width: 800px;
+}
+
+#Banner {
+    background-color: #3f4349;
+    color: white;
+    height: 450px;
+    width: 800px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#Conoce {
+    background-color: #3f4349;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 2px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+#Banner2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*-- Form --*/
+
+#Formulario {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+form {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(197, 195, 195, 0.349);
+    border-radius: 2px;
+}
+
+input:focus {
+    background-color: rgb(165, 241, 235);
+    color: black;
+}
+
+textarea {
+    width: 635px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;    
+    border: 1px solid rgba(197, 195, 195, 0.349);
+    border-radius: 2px;
+}
+
+textarea:focus {
+    background-color: rgb(165, 241, 235);
+    color: black;
+}
+
+#Enviar {
+    width: 650px;
+    height: 50px;
+    color: white;
+    background-color: #a7c957;
+    border-radius: 8px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+
+}
+
+#subrayado {
+
+    text-decoration: underline dotted;
+}
+
+/*-- JS --*/
+
+#Tipos{
+margin-top: 20px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-left: 60px;
+
+}
+
+#Azul{
+   border: 1px solid rgba(0, 0, 255, 0.753);
+  padding: 15px;
+  margin-right: 10px;
+}
+#Verde{
+    border: 1px solid rgba(0, 102, 255, 0.801);
+    padding: 15px;
+    margin-right: 10px;
+   
+}
+#Amarillo{
+    border: 1px solid rgb(255, 196, 0);
+  padding: 15px;
+  margin-right: 10px;
+    
+}
+
+#Venta{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    
+
+}
+#Caja {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+    
+
+}
+
+
+#nombre{
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+}
+
+
+#apellido{
+    border-radius: 5px;
+ border: 1px solid rgb(197, 195, 195);
+}
+
+#correo{
+    width: 630px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+}
+
+#rotulos{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   width: 400px;
+   padding-left: 15px;
+}
+
+#Cantidad{
+width: 310px;
+height: 50px;
+margin: 10px;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid rgb(197, 195, 195);
+}
+
+#Categoria{
+    width: 305px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+
+}
+.Botones{
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #90c90cd8;
+    border-radius: 8px;
+    border: 1px solid rgba(197, 195, 195, 0.623);
+}
+
+#valorInput{
+    background-color: #68bcf8;
+    color : blue;
+    width: 600px;
+    height: auto;
+    margin: 30px;
+}
+
+
+/*-- Footer --*/
+
+footer {
+    background-color: #013a63;
+    color: white;
+    height: 100px;
+    padding-top: 20px;
+
+}
+
+.col-md-1 {
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+@media (max-width: 750px) {
+
+
+    ul li {
+        display: block;
+
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+
+    #cuadro1 {
+
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        top: 280px;
+
+    }
+
+
+    #cuadro2 {
+
+        color: white;
+        height: 200px;
+        width: 100%;
+        text-align: start;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+
+    }
+
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Banner {
+        height: 300px;
+        width: 100%;
+    }
+
+    #Banner2 {
+        display: inline;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #Honolulu {
+        height: 300px;
+        width: 100%;
+    }
+
+    #Formulario {
+        margin-left: 5%;
+
+    }
+
+    input {
+        width: 420px;
+
+    }
+
+    textarea {
+        width: 420px;
+
+    }
+
+    #Enviar {
+        width: 420px;
+
+    }
+
+    footer {
+        height: 200px;
+
+    }
+
+    #rotulos{
+        display: none;
+    }
+       
+    #valorInput{
+       
+        width: 350px;
+       
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    #cuadro1 {
+
+        height: 300px;
+
+
+    }
+
+    #Formulario {
+        margin-left: 15%;
+
+    }
+
+    input {
+        width: 250px;
+
+    }
+
+    textarea {
+        width: 250px;
+
+    }
+
+    #Enviar {
+        width: 250px;
+
+    }
+
+    #Tipos{
+
+        flex-direction: column;
+    }
+    #valorInput{
+       
+        width: 250px;
+       
+    }
+
+}

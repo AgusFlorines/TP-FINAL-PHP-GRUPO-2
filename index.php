@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUPO 2 TP FINAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+<?php 
+require 'header.php';
+
+?>
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Imagenes/hawaii.jpg" class="imagenescarousel">
+            </div>
+            <div class="carousel-item">
+                <img src="./Imagenes/hawaii2.jpg" alt="..." class="imagenescarousel">
+            </div>
+            <div class="carousel-item">
+                <img src="./Imagenes/hawaii3.jpg" alt="..." class="imagenescarousel">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="cuadro1">
+        <div id="cuadro2">
+            <h1>Conf Bs As</h1>
+            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y
+                experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del
+                evento, a
+                otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos</p>
+            <button id="boton1"><a href="#Orador2" id="boton1a">Quiero ser orador</a></button>
+            <button id="boton2">Comprar tickets</button>
+        </div>
+    </div>
+    </section>
+    <!-- FIN Carousel -->
+
+    <!-- Cards -->
+    <h4 id="Oradores">Conoce a los </h4>
+    <h2>ORADORES</h2>
+    <div class="container">
+        <div class="card-group">
+            <div class="card">
+                <img src="./Imagenes/steve.jpg" class="card-img-top" alt="Steve Jobs">
+                <div><button class="botoncard" id="botonjava">JavaScript</button>
+                    <button class="botoncard" id="botonreact">React</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b>Steve Jobs</b></h5>
+                    <p class="card-text">Steven Paul Jobs es un empresario, diseñador industrial, magnate empresarial,
+                        propietario de medios e inversor estadounidense. Es cofundador y presidente ejecutivo de Apple y
+                        máximo accionista individual de The Walt Disney Company. </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Imagenes/bill.jpg" class="card-img-top" alt="Bill Gates">
+                <div>
+                    <button class="botoncard" id="botonjava">JavaScript</button>
+                    <button class="botoncard" id="botonreact">React</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b>Bill Gates</b></h5>
+                    <p class="card-text">William Henry Gates III, más conocido como Bill Gates, es un magnate
+                        empresarial, desarrollador de software, inversor, autor y filántropo estadounidense. Es
+                        cofundador de Microsoft, junto con su difunto amigo de la infancia Paul Allen.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="./Imagenes/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+                <div><button class="botoncard" id="botonnegoc">Negocios</button>
+                    <button class="botoncard" id="botonstar">Startups</button>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b>Ada Lovelace</b></h5>
+                    <p class="card-text">Augusta Ada King, condesa de Lovelace, es una matemática y escritora británica,
+                        célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles
+                        Babbage, la denominada máquina analítica.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN Cards -->
+
+    <!-- Banner -->
+    <div class= "container-fluid">
+        <div id="Banner2">
+            <div><img id="Honolulu" src="./Imagenes/honolulu.jpg" alt="Honolulu"></div>
+            <div id="Banner">
+                <h3>Bs As - Octubre</h3>
+                <p>Buenos Aires es la provincia y localidad más grande del Estado de Argentina. En los Estados Unidos,
+                    Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
+                    "Honolulu" se refiere al área urbana en la costa sureste de la Isla de Oahu, la ciudad y el condado
+                    de
+                    Honolulu han formado una ciudad - condado consolidada que cubre toda la ciudad (aproximadamente
+                    600km<sup>2</sup> de superficie). </p>
+                <button id="Conoce">Conocé más</button>
+
+            </div>
+        </div>
+    </div>
+    <!-- FIN Banner -->
+
+    <?php
+
+    require 'formulario.php';
+
+    ?>
+    
+
+<!-- JS -->
+
+<div id="Tipos">
+<div id = "Azul">
+    <h5><b>Estudiante</b></h5>
+            <p>Tienen un descuento</p>
+            <p><b>80%</b></p>
+            <p>*Presentar documentación</p>
+
+</div>
+
+<div id = "Verde">
+    <h5><b>Trainee</b></h5>
+            <p >Tienen un descuento</p>
+            <p><b>50%</b></p>
+            <p>*Presentar documentación</p>
+</div>
+
+
+<div id = "Amarillo">
+    <h5><b>Junior</b></h5>
+            <p >Tienen un descuento</p>
+            <p><b>15%</b></p>
+            <p>*Presentar documentación</p>
+</div>
+</div>
+
+
+    <h4 id="Ticket">VENTA</h4>
+    <h2><b>VALOR DE TICKET $200</b></h2>
+
+    <div id="Venta">
+    <div class= "container" id="Caja">
+        <label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre2" placeholder="Nombre" required>
+        <label for="apellido"></label>
+        <input type="text" name="apellido" id="apellido2" placeholder="Apellido" required>
+        <br>
+        <label for="correo"></label>
+        <input type="email" name="correo" id="correo2" placeholder="Correo" required>
+        <br>
+        
+        <div id="rotulos">
+        <label for="Cantidad">Cantidad</label>
+        <br>
+        <label for="Categoria">Categoria</label>
+        </div>
+
+       
+        <input type="number" name="Cantidad" id="Cantidad" placeholder="Cantidad" required>
+        
+        <select name="Categoria" id="Categoria">
+           
+            <option id="Estudiante" value="Estudiante">Estudiante</option>
+            <option id="Trainee" value="Trainee">Trainee</option>
+            <option id="Junior" value="Junior">Junior</option>
+        </select>
+    
+<br>
+<label for="" id="valorInput"></label>
+
+
+<br>
+        <button onclick="Borrar()"  type="reset" id="Borrar" class="Botones">Borrar</button>
+        <button onclick= "ResumenFormulario()" class="Botones">Resumen</button>
+    </div>
+    </div>
+
+<!-- FIN JS -->
+
+<?php 
+require 'footer.php';
+
+?>
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
