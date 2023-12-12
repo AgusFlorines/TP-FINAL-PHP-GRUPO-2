@@ -71,16 +71,12 @@ while ($mostrar = mysqli_fetch_array($result))
       <td><?php echo $mostrar ['tema']?> </td>
       <td><?php echo $mostrar ['fecha_alta']?></td>
       
-      <td><button type="button" class="btn btn-success">
-      <img src="./Imagenes/editar.png" alt="">
-      Editar</button>
-</td>
-<td><button type="button" class="btn btn-danger"> <img src="./Imagenes/eliminar2.png" alt="">
-  Eliminar</button>
-</td>
+      <td><button type="button" class="btn btn-outline-light">
+      <img src="./Imagenes/editar.png" alt=""><a href="editar.php?id=<?php echo $mostrar ['id_orador'];?>">Editar</button></td>
+      <td><button type="button" class="btn btn-outline-light">
+      <img src="./Imagenes/eliminar2.png" alt=""><a href="eliminar.php?id=<?php echo $mostrar ['id_orador'];?>">Eliminar</a></button></td>
 
     </tr>
-
     
 <?php
 
